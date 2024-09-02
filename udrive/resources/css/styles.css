@@ -1,3 +1,17 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
 .text-violet {
   color: #674188; /* Or use a specific hex code, e.g., #8A2BE2 */
 }
