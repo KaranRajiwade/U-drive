@@ -1,3 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: #f1fbff;
+}
+.section-padding {
+  padding: 100px 0;
+}
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+}
+.carousel-caption {
+  bottom: 220px;
+  z-index: 2;
+}
+.carousel-caption h5 {
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+.carousel-caption p {
+  width: 60%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.9;
+}
+.carousel-inner:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+.portfolio .card {
+  box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+.team .card {
+  box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+.services .card-body i {
+  font-size: 50px;
+}
+.team .card-body i {
+  font-size: 20px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .carousel-caption {
+    bottom: 370px;
+  }
+  .carousel-caption p {
+    width: 100%;
+  }
+  .card {
+    margin-bottom: 30px;
+  }
+  .img-area img {
+    width: 100%;
+  }
+}
+
 .text-violet {
   color: #674188; /* Or use a specific hex code, e.g., #8A2BE2 */
 }
@@ -8,9 +76,30 @@
   color: #674188;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 767px) {
   .sidebar {
     background-color: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(10px);
+  }
+  .carousel-caption {
+    bottom: 125px;
+  }
+  .carousel-caption h5 {
+    font-size: 17px;
+  }
+  .carousel-caption a {
+    padding: 10px 15px;
+    font-size: 15px;
+  }
+  .carousel-caption p {
+    width: 100%;
+    line-height: 1.6;
+    font-size: 12px;
+  }
+  .about-text {
+    padding-top: 50px;
+  }
+  .card {
+    margin-bottom: 30px;
   }
 }
