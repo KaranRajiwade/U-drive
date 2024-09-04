@@ -10,7 +10,6 @@ body {
 }
 .carousel-item {
   height: 480px;
-  object-fit: cover;
 }
 .carousel-caption {
   z-index: 2;
@@ -88,7 +87,7 @@ body {
   .carousel-caption p {
     width: 100%;
     line-height: 1.6;
-    font-size: 12px;
+    font-size: 14px;
   }
   .about-text {
     padding-top: 50px;
