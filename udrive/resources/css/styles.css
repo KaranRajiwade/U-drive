@@ -96,3 +96,12 @@ body {
     margin-bottom: 30px;
   }
 }
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 0.96s ease-in;
+}
+
+.fade-in.visible {
+  opacity: 1;
+}
