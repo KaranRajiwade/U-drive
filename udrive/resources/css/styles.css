@@ -9,7 +9,7 @@ body {
   padding: 100px 0;
 }
 .carousel-item {
-  height: 480px;
+  height: 600px;
 }
 .carousel-caption {
   z-index: 2;
@@ -21,7 +21,7 @@ body {
   margin-top: 25px;
 }
 .carousel-caption p {
-  width: 60%;
+  width: auto;
   margin: auto;
   font-size: 18px;
   line-height: 1.9;
@@ -105,3 +105,33 @@ body {
 .fade-in.visible {
   opacity: 1;
 }
+
+/* card background style */
+.faint-green {
+  background-color: rgba(238, 238, 211, 0.1); /* Light green with opacity */
+}
+/* for smooth scroll  */
+html {
+  scroll-behavior: smooth;
+}
+
+/* color gradient */
+/* .g-color {
+  background: linear-gradient(270deg, #ff7e5f, #feb47b, #ff7e5f);
+  animation: gradient-animation 10s ease infinite;
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.content {
+  z-index: 1;
+} */
