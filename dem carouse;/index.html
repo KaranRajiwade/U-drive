@@ -134,6 +134,32 @@
     </div>
     <!-- End of Container -->
 
+    <!-- jot form link -->
+
+    <script src="https://form.jotform.com/static/feedback2.js"></script>
+    <script>
+      var componentID = new JotformFeedback({
+        type: 1,
+        width: 600,
+        height: 500,
+        fontColor: "#FFFFFF",
+        background: "rgba(241,228,80,0.86)",
+        isCardForm: false,
+        formId: "242900896034458",
+        buttonText: "Contact Us",
+        buttonSide: "left",
+        buttonAlign: "center",
+        base: "https://form.jotform.com/",
+      }).componentID;
+    </script>
+    <script src="https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js"></script>
+    <script>
+      window.jotformEmbedHandler(
+        "iframe[id='" + componentID + "_iframe']",
+        "https://form.jotform.com/"
+      );
+    </script>
+
     <!-- JQuery Plugin -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
