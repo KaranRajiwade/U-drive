@@ -149,10 +149,17 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
+            <!-- Image for laptop screens and above (md and up) -->
             <img
-              alt="..."
-              class="d-block w-100 c-img"
               src="./resources/banner-images/udrive-banner-1.jpg"
+              class="d-none d-md-block img-fluid w-100 c-img"
+              alt="Image for laptop screens"
+            />
+            <!-- Image for mobile screens (below md) -->
+            <img
+              src="./resources/banner-images/mobDevice/mobcsrosel-1.jpg"
+              class="d-block d-md-none img-fluid w-100 c-img"
+              alt="Image for mobile screens"
             />
             <!-- carousel caption -->
             <div class="carousel-caption">
@@ -161,10 +168,17 @@
             </div>
           </div>
           <div class="carousel-item">
+            <!-- Image for laptop screens and above (md and up) -->
             <img
-              alt="..."
-              class="d-block w-100 c-img"
               src="./resources/banner-images/udrive-banner-2.jpg"
+              class="d-none d-md-block img-fluid w-100 c-img"
+              alt="Image for laptop screens"
+            />
+            <!-- Image for mobile screens (below md) -->
+            <img
+              src="./resources/banner-images/mobDevice/mobcsrosel-2.jpg"
+              class="d-block d-md-none img-fluid w-100 c-img"
+              alt="Image for mobile screens"
             />
             <!-- carousel caption -->
             <div class="carousel-caption">
@@ -176,10 +190,17 @@
             </div>
           </div>
           <div class="carousel-item">
+            <!-- Image for laptop screens and above (md and up) -->
             <img
-              alt="..."
-              class="d-block w-100 c-img"
               src="./resources/banner-images/udrive-banner-3.jpg"
+              class="d-none d-md-block img-fluid w-100 c-img"
+              alt="Image for laptop screens"
+            />
+            <!-- Image for mobile screens (below md) -->
+            <img
+              src="./resources/banner-images/mobDevice/mobcsrosel-3.jpg"
+              class="d-block d-md-none img-fluid w-100 c-img"
+              alt="Image for mobile screens"
             />
             <!-- carousel caption -->
             <div class="carousel-caption">
@@ -247,6 +268,7 @@
       </div>
     </section>
     <!-- about section Ends -->
+    <hr class="featurette-divider py-3 my-4" />
 
     <!-- services section Starts -->
     <section class="services section-padding" id="services">
@@ -372,8 +394,10 @@
 
     <!-- services section Ends -->
 
+    <hr class="featurette-divider py-3 my-4" />
+
     <!-- team starts -->
-    <section class="team mb-4" id="team">
+    <section class="team mb-4 section-padding" id="team">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -389,7 +413,7 @@
           </div>
         </div>
         <div class="row fade-in">
-          <div class="col-12 col-md-6 col-lg-3">
+          <div class="col-12 col-md-6 col-lg-3 faint-green">
             <div class="card text-center">
               <div class="card-body">
                 <img
@@ -411,7 +435,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-3">
+          <div class="col-12 col-md-6 col-lg-3 faint-green">
             <div class="card text-center">
               <div class="card-body">
                 <img
@@ -419,7 +443,7 @@
                   class="img-fluid rounded-circle"
                   src="img/team-2.jpg"
                 />
-                <h3 class="card-title py-2">Lucky the Rider</h3>
+                <h3 class="card-title py-2">Lucky the Racer</h3>
                 <p class="card-text">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Sequi ipsam nostrum illo tempora esse quibusdam.
@@ -433,7 +457,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-3">
+          <div class="col-12 col-md-6 col-lg-3 faint-green">
             <div class="card text-center">
               <div class="card-body">
                 <img
@@ -455,7 +479,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-3">
+          <div class="col-12 col-md-6 col-lg-3 faint-green">
             <div class="card text-center">
               <div class="card-body">
                 <img
@@ -482,6 +506,8 @@
     </section>
     <!-- team ends -->
 
+    <hr class="featurette-divider py-3 my-4" />
+
     <!-- Pricing section starts here -->
 
     <section class="team mb-4 section-padding" id="pricing">
@@ -498,21 +524,21 @@
             </div>
           </div>
         </div>
-        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center fade-in">
           <div class="col">
-            <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card rounded-3 shadow-sm col-md-12">
               <div class="card-header py-3">
-                <h4 class="my-0 fw-normal">Free</h4>
+                <h4 class="my-0 fw-normal">Basic</h4>
               </div>
               <div class="card-body">
                 <h1 class="card-title pricing-card-title">
-                  $0<small class="text-body-secondary fw-light">/mo</small>
+                  $20<small class="text-body-secondary faint-green">/mo</small>
                 </h1>
                 <ul class="list-unstyled mt-3 mb-4">
-                  <li>10 users included</li>
-                  <li>2 GB of storage</li>
-                  <li>Email support</li>
-                  <li>Help center access</li>
+                  <li>Two and four-wheeler licenses without training</li>
+                  <li>Documentation assistance</li>
+                  <li>Quick processing</li>
+                  <li>Support for any inquiries</li>
                 </ul>
                 <button
                   type="button"
@@ -524,19 +550,19 @@
             </div>
           </div>
           <div class="col">
-            <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card rounded-3 shadow-sm col-md-12">
               <div class="card-header py-3">
-                <h4 class="my-0 fw-normal">Pro</h4>
+                <h4 class="my-0 fw-normal">Comprehensive Training</h4>
               </div>
               <div class="card-body">
                 <h1 class="card-title pricing-card-title">
-                  $15<small class="text-body-secondary fw-light">/mo</small>
+                  $30<small class="text-body-secondary faint-green">/mo</small>
                 </h1>
                 <ul class="list-unstyled mt-3 mb-4">
-                  <li>20 users included</li>
-                  <li>10 GB of storage</li>
-                  <li>Priority email support</li>
-                  <li>Help center access</li>
+                  <li>Comprehensive four-wheeler training</li>
+                  <li>Personalized instruction</li>
+                  <li>Road test preparation</li>
+                  <li>Ongoing support and resources</li>
                 </ul>
                 <button type="button" class="w-100 btn btn-lg btn-warning">
                   Get started
@@ -545,19 +571,19 @@
             </div>
           </div>
           <div class="col">
-            <div class="card mb-4 rounded-3 shadow-sm border-warning">
+            <div class="card rounded-3 shadow-sm border-warning col-md-12">
               <div class="card-header py-3 text-bg-warning border-warning">
-                <h4 class="my-0 fw-normal">Enterprise</h4>
+                <h4 class="my-0 fw-normal">Comprehensive Training</h4>
               </div>
               <div class="card-body">
                 <h1 class="card-title pricing-card-title">
-                  $29<small class="text-body-secondary fw-light">/mo</small>
+                  $45<small class="text-body-secondary faint-green">/mo</small>
                 </h1>
                 <ul class="list-unstyled mt-3 mb-4">
-                  <li>30 users included</li>
-                  <li>15 GB of storage</li>
-                  <li>Phone and email support</li>
-                  <li>Help center access</li>
+                  <li>Dual training for two and four-wheelers</li>
+                  <li>Flexible lesson scheduling</li>
+                  <li>Expert instructors</li>
+                  <li>Access to practice materials</li>
                 </ul>
                 <button type="button" class="w-100 btn btn-lg btn-warning">
                   Contact us
@@ -570,16 +596,157 @@
     </section>
     <!-- Pricing section starts here -->
 
+    <hr class="featurette-divider py-3 my-4" />
+
     <!-- testimonial section starts here -->
+
+    <section class="fade-in section-padding" id="testimonial">
+      <div class="container">
+        <div class="wrapper">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="section-header text-center pb-5">
+                <h2 class="fade-in">Success Stories from Our Students</h2>
+                <p class="fade-in">
+                  Discover how our expert instructors have helped students
+                  become confident drivers. Read their testimonials and see why
+                  U-Drive is the right choice for your driving journey!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="review-card">
+            <div class="header-content">
+              <div class="img-area">
+                <img
+                  alt="customer1"
+                  src="./resources/customer'sProfile/customer image.jpg"
+                />
+              </div>
+              <div class="info">
+                <h4>John Doe</h4>
+                <p>Maketing Manager</p>
+              </div>
+            </div>
+            <div class="single-review">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                dolor eveniet deleniti repellendus! Minima, dolorum.
+              </p>
+            </div>
+            <div class="review-footer">
+              <div class="rating">
+                <span class="active">★</span>
+                <span class="active">★</span>
+                <span class="active">★</span>
+                <span class="">★</span>
+                <span class="">★</span>
+              </div>
+              <p>Reviewed on 01/01/2023</p>
+            </div>
+          </div>
+          <div class="review-card">
+            <div class="header-content">
+              <div class="img-area">
+                <img
+                  alt="customer1"
+                  src="./resources/customer'sProfile/Customer2.jpg"
+                />
+              </div>
+              <div class="info">
+                <h4>Mark Wood</h4>
+                <p>Graphics Expert</p>
+              </div>
+            </div>
+            <div class="single-review">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                dolor eveniet deleniti repellendus! Minima, dolorum.
+              </p>
+            </div>
+            <div class="review-footer">
+              <div class="rating">
+                <span class="active">★</span>
+                <span class="active">★</span>
+                <span class="">★</span>
+                <span class="">★</span>
+                <span class="">★</span>
+              </div>
+              <p>Reviewed on 01/02/2023</p>
+            </div>
+          </div>
+          <div class="review-card">
+            <div class="header-content">
+              <div class="img-area">
+                <img
+                  alt="customer1"
+                  src="./resources/customer'sProfile/Customer3.jpg"
+                />
+              </div>
+              <div class="info">
+                <h4>Jason Chedd</h4>
+                <p>Web Designer</p>
+              </div>
+            </div>
+            <div class="single-review">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                dolor eveniet deleniti repellendus! Minima, dolorum.
+              </p>
+            </div>
+            <div class="review-footer">
+              <div class="rating">
+                <span class="active">★</span>
+                <span class="active">★</span>
+                <span class="active">★</span>
+                <span class="active">★</span>
+                <span class="active">★</span>
+              </div>
+              <p>Reviewed on 01/03/2023</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- testimonial section ends here -->
 
     <!-- footer starts -->
-    <footer class="bg-dark p-2 text-center">
-      <div class="container">
-        <p class="text-white">All Right Reserved By @website Name</p>
-      </div>
-    </footer>
+    <div class="container">
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <p class="col-md-4 mb-0 text-body-secondary">© 2024 U-Drive, Inc</p>
+
+        <a
+          href="/"
+          class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+        >
+          <svg class="bi me-2" width="40" height="32">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+        </a>
+
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item">
+            <a href="#home" class="nav-link px-2 text-body-secondary">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link px-2 text-body-secondary"
+              >Features</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#pricing" class="nav-link px-2 text-body-secondary"
+              >Pricing</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link px-2 text-body-secondary">About</a>
+          </li>
+        </ul>
+      </footer>
+    </div>
     <!-- footer ends -->
 
     <!-- jot form link -->
