@@ -2,6 +2,32 @@
 * {
   font-family: "Montserrat", sans-serif;
 }
+
+/* Style for Webkit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0); /* Fully transparent track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(33, 37, 41, 1); /* Scrollbar thumb color */
+  border-radius: 10px; /* Rounded edges for the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(33, 37, 41, 0.8); /* Darker thumb on hover */
+}
+
+/* Style for Firefox */
+* {
+  scrollbar-width: thin; /* Makes the scrollbar thin */
+  scrollbar-color: rgba(33, 37, 41, 1) rgba(255, 255, 255, 0); /* Thumb and track color */
+}
+/* -------------------------------------------------------------------------------------------------- */
+
 body {
   background: #f1fbff;
 }
