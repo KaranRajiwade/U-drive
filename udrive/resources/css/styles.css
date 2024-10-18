@@ -105,7 +105,7 @@ body {
 /* Styles for tablet devices only */
 @media (min-width: 600px) and (max-width: 900px) {
   .sidebar {
-    background-color: rgba(255, 255, 255, 0.15);
+    background-color: rgba(33, 37, 41, 0.8);
     backdrop-filter: blur(10px);
   }
 
@@ -133,10 +133,22 @@ body {
   }
 }
 
+/* Default offcanvas width for larger screens */
+.navbar .offcanvas {
+  width: 300px; /* Adjust this value as needed */
+}
+
+/* Mobile-specific width */
+@media (max-width: 576px) {
+  .navbar .offcanvas {
+    width: 280px; /* Adjust this value for mobile devices */
+  }
+}
+
 /* styles for mobile devices */
 @media (max-width: 767px) {
   .sidebar {
-    background-color: rgba(255, 255, 255, 0.15);
+    background-color: rgba(33, 37, 41, 0.8);
     backdrop-filter: blur(10px);
   }
 
